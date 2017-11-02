@@ -47,7 +47,7 @@ int main()
         if (strcmp(tests[i].type, "ones") == 0)
             initOnes(input, tests[i].length);
         else
-            initOnes(input, tests[i].length);
+            initRandom(input, tests[i].length);
 
         //for convenience, set the output to the input and then
         //the scan routines can just operate on the output
